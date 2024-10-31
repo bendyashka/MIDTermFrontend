@@ -59,3 +59,12 @@ body {
     font-size: 2em;
     margin-bottom: 20px;
 }
+nav a {
+    margin-right: 10px;
+    color: gray;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: black;
+}

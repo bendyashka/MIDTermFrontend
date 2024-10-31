@@ -41,14 +41,22 @@ body {
 }
 
 .overlay button {
-    background-color: #118615;
+    background-color: #4CAF50;
     color: white;
     padding: 15px 30px;
     border: none;
     border-radius: 10px;
     cursor: pointer;
     font-size: 1em;
+    opacity: 0.8; 
+    transition: opacity 0.3s, background-color 0.3s; }
+
+.overlay button:hover {
+    opacity: 1; 
+    background-color: #6bca70; 
 }
+
+
 .right-section {
     width: 50%;
     padding: 40px;

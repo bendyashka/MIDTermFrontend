@@ -85,3 +85,13 @@ nav a:hover {
     margin-right: 15px;
     border-radius: 50%; 
 }
+h3 {
+    font-size: 1.3em;
+}
+
+h3 + span {
+    font-size: 0.8em;
+    color: gray;
+    display: block;
+    margin-top: 5px;
+}
